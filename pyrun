@@ -1,0 +1,12 @@
+export HOME=/data/data/com.hipipal.qpy3
+export PYTHONHOME=$HOME/files
+export EXTRAS=/data/data/com.hipipal.qpy3/files/extras
+export ANDROID_PRIVATE=/data/data/com.hipipal.qpy3/files
+export LD_LIBRARY_PATH=/sdcard/com.hipipal.qpyplus/lib:$PYTHONHOME/lib:$LD_LIBRARY_PATH
+export PATH=$PYTHONHOME/bin:/sdcard/com.hipipal.qpyplus/scripts3:$PATH
+export PYTHONOPTIMIZE=3
+export PYTHONOLIB=$PYTHONHOME/lib/python3.2
+export PYTHONPATH=$EXTRAS/python3:$PYTHONOLIB/config-3.2m:$PYTHONOLIB:$PYTHONOLIB/lib-dynload:$PYTHONOLIB/site-packages:/sdcard/com.hipipal.qpyplus/lib/python3.2/site-packages
+export TMPDIR=/sdcard/com.hipipal.qpyplus/cache
+
+/data/data/com.hipipal.qpy3/files/bin/python  "$@"
